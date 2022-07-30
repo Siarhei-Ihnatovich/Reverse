@@ -3,9 +3,9 @@ const reverse = (str) => {
   let result = '';
 
   while (i < str.lenght) {
-    result = result + str[i]
+    result = result + str [i];
     i = i + 1;
   }
   return result;
 }
-console.log(reverse(str));
+console.log(reverse(cat));
